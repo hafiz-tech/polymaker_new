@@ -189,14 +189,16 @@ class MapProvider extends ChangeNotifier {
           currentPos = Position(
             latitude: Platform.isAndroid ? 0 :  -6.215412,
             longitude: Platform.isAndroid ? 0 : 106.777773,
-            timestamp: DateTime.now(), accuracy: 0, altitude: 0, heading: 0, speed: 0, speedAccuracy: 0
+            timestamp: DateTime.now(), accuracy: 0, altitude: 0, heading: 0, speed: 0, speedAccuracy: 0,
+            altitudeAccuracy: 5.0,
           );
         }
       } catch(_) {
         currentPos = Position(
           latitude: Platform.isAndroid ? 0 :  -6.215412,
           longitude: Platform.isAndroid ? 0 : 106.777773,
-          timestamp: DateTime.now(), accuracy: 0, altitude: 0, heading: 0, speed: 0, speedAccuracy: 0
+          timestamp: DateTime.now(), accuracy: 0, altitude: 0, heading: 0, speed: 0, speedAccuracy: 0,
+          altitudeAccuracy: 5.0,
         );
       }
 
