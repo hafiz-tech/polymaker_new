@@ -61,7 +61,7 @@ class MapProvider extends ChangeNotifier {
   ///Property temporary polygon list
   Set<Polygon> _tempPolygons = new Set();
   Set<Polygon> get tempPolygons => _tempPolygons;
-`
+
   ///Property polygon list
   Set<Polygon> _polygons = new Set();
   Set<Polygon> get polygons => _polygons;
