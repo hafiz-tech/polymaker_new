@@ -1,7 +1,7 @@
 name: polymaker
 # author: Yusril Rapsanjani <yuranicorp@gmail.com>
 version: 1.0.3
-homepage: https://github.com/yusriltakeuchi/polymaker.git
+homepage: https://github.com/hafiz-tech/polymaker_new.git
 description: Polymaker is a flutter package used to get a list of locations for polygon google maps
 environment:
   sdk: '>=2.12.0 <3.0.0'
